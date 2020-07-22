@@ -156,6 +156,7 @@ ods pdf close;
 %global admit_semester;
 %let season1=Fall;
 %let season2=Spring;
+/*if nov-jan do for fall and spring*/
 %if ("11"<="%sysfunc(today(),month2.)" and "%sysfunc(today(),month2.)"<="12") or 
      "%sysfunc(today(),month2.)"=" 1" %then %do i=1 %to 2;
    %let season=&&season&i..;
@@ -165,13 +166,13 @@ ods pdf close;
          %let hist_sem="2&hist_entry.1";*comparison semester;
          %let hist_semester=2&hist_entry.1;
          %let admit_semester=2&fall_entry.1;
-	  %end;
-	  %else %do;
+      %end;
+      %else %do;
          %let admit_sem="2&sprg_entry.1";*semester;
          %let hist_sem="2&fall_entry.1";*comparison semester;
          %let hist_semester=2&fall_entry.1;
          %let admit_semester=2&sprg_entry.1;
-	  %end;
+      %end;
    %end;
    %else %do;
       %if "%sysfunc(today(),month2.)"=" 1" %then %do;
@@ -188,7 +189,8 @@ ods pdf close;
 	  %end;
    %end;
    %main;
-%end;
+%end; *end fall and spring;
+/*if sept-oct do only for fall*/
 %else %if "%sysfunc(today(),month2.)"<" 9" %then %do;
    /*Fall*/
    %let season=Fall;
@@ -198,6 +200,7 @@ ods pdf close;
    %let admit_semester=2&fall_entry.8;
    %main;
 %end;
+/*if feb-august do only for spring*/
 %else %do; 
    /*Spring*/
    %let season=Spring;
@@ -215,9 +218,7 @@ OPTIONS emailsys=SMTP emailhost=smtp.ncsu.edu emailid="&email.";
 %macro email;
 %if "2"<="%sysfunc(today(),weekday1.)" and "%sysfunc(today(),weekday1.)"<="6" %then %do; /*Monday through Friday*/ 
 FILENAME Mailbox 
-EMAIL TO=('snstewar@ncsu.edu' 'ldhunt@ncsu.edu' 'jrwestov@ncsu.edu' 'aibrocke@ncsu.edu' 'blpearso@ncsu.edu'
-      'jcpowell@ncsu.edu' 'sara_mackenzie@ncsu.edu' 'slwhite5@ncsu.edu' 'tjmai@ncsu.edu' 'kmringle@ncsu.edu' 
-      'rlchalme@ncsu.edu' 'tahollan@ncsu.edu')
+EMAIL TO=(/*emails excluded*/)
 SUBJECT="ASR" 
 ATTACH=(%if "11"<="%sysfunc(today(),month2.)" and "%sysfunc(today(),month2.)"<="12" %then %do;
            "&dir.\PDF Output\NTR_NFR_2&sprg_entry.1_&today..pdf"
@@ -247,7 +248,7 @@ PUT "&name.";
 run;
 
 FILENAME Mailbox 
-EMAIL TO=('snstewar@ncsu.edu' 'jcpowell@ncsu.edu')
+EMAIL TO=(/*emails excluded*/)
 SUBJECT="Countries ASR" 
 ATTACH=(%if "11"<="%sysfunc(today(),month2.)" and "%sysfunc(today(),month2.)"<="12" %then %do;
            "&dir.\PDF Output\NTR_NFR_2&sprg_entry.1_&today..pdf"
@@ -285,7 +286,7 @@ run;
 
 %if "%sysfunc(today(),weekday1.)"="2" %then %do; /*Monday*/
 FILENAME Mailbox 
-EMAIL TO=('snstewar@ncsu.edu' 'tiffany_mcclean@ncsu.edu')
+EMAIL TO=(/*emails excluded*/)
 SUBJECT="CNR ASR" 
 ATTACH=(%if "11"<="%sysfunc(today(),month2.)"<="12" %then %do;
            "&dir.\PDF Output\CNR_2&sprg_entry.1_&today..pdf"
