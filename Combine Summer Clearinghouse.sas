@@ -327,26 +327,6 @@ where a.emplid=b.emplid and
       (a.prg_stat6='W'^=b.prg_stat6 and b.prg_stat3 ne 'G'));
 quit;
 
-/*
-proc print data= NEW_CAL;
-where emplid='000007058' ;
-run;
-proc print data= W_check;
-where emplid='000007058' ;
-run;
-proc print data= prd.PS_STDNT_ENRL;
-where emplid= "000007058" and strm in ('2186','2187');
-run;
-proc print data= prd.PS_STDNT_CAR_TERM;
-where emplid= "137962992" and strm in ('2186','2187');
-run;
-proc freq data= NEW_CAL;
-tables PRG_STAT1*NC_DEGR_CKOUT_STAT;
-quit; 
-proc print data=new_cal;
-where emplid='000963234';
-run;
-*/
 /*********************************END VALIDATION********************************/
 
 /************************************OUTPUT*************************************/
