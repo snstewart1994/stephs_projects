@@ -538,7 +538,7 @@
        "Vendor Type": "Photographer",
        "Location": "Triangle",
        "Pronouns": "She/Her",
-       "Website URL": "Www.amyellisphotography.com",
+       "Website URL": "https:\\www.amyellisphotography.com",
        "Facebook URL": "",
        "Instagram @": "Amyellisphoto",
        "TikTok URL": "",
@@ -546,7 +546,22 @@
        "Short Bio": "Hi! I’m an NC based wedding photographer with a documentary style. My goal is to create timeless photos of these memories that you’ll want to relive decades from now. This is a one in a lifetime celebration and deserves beautiful images to remember it with. I value real moments and emotion over blog worthy trends and am a huge supporter of nontraditional couples or incorporating traditions that you truly value. Life moves pretty fast. Let’s capture the good stuff. ❤️",
        "LGBTQ Status": "Ally & Inclusive Vendor",
        "Email Address": "amy@amyellisphotography.com"
-   }
+   },
+   {
+       "Business Name": "Aria Events and Catering",
+       "Vendor Type": "Venue",
+       "Location": "Triangle",
+       "Pronouns": "Arya",
+       "Website URL": "https://www.ariaeventsdurham.com/",
+       "Facebook URL": "https://www.facebook.com/ariaeventsdurham?mibextid=PtKPJ9",
+       "Instagram @": "ariaeventsdurham",
+       "TikTok URL": "",
+       "Pinterest URL": "",
+       "Short Bio": "Conveniently located in Durham, NC, Aria Events and Catering venue offers a unique and distinctive experience for any soirée. Aria's sophisticated dining experiences, elevated service, and beautiful spaces live on in every guest's memory. Featuring five glamorous event spaces plus luxurious outdoor gardens, each space is as memorable as the cuisine. At Aria, every day is a celebration! ",
+       "LGBTQ Status": "Ally & Inclusive Vendor",
+       "Email Address": "info@ariaeventsdurham.com"
+
+}
 
 ]
 }
