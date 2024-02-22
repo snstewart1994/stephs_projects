@@ -283,7 +283,7 @@
     },
     {
         "Business Name": "Yazmin Jade Collective ",
-        "Vendor Type": "Media & Planning ",
+        "Vendor Type": "Planner",
         "Location": "Charlotte-Mecklenburg",
         "Pronouns": "She/Her",
         "Website URL": "https://Www.yazminjadecollective.com",
@@ -381,7 +381,7 @@
     },
     {
         "Business Name": "Brushes & Brows ",
-        "Vendor Type": "Hair + Makeup",
+        "Vendor Type": "Hair/Makeup",
         "Location": "Triangle",
         "Pronouns": "She/Her",
         "Website URL": "https://www.brushesandbrows.net",
@@ -521,7 +521,7 @@
    },
    {
        "Business Name": "Flaughless",
-       "Vendor Type": "Makeup ",
+       "Vendor Type": "Hair/Makeup ",
        "Location": "Western NC",
        "Pronouns": "She/Her",
        "Website URL": "https://www.urflaughless.com/",
@@ -679,7 +679,7 @@
 },
 {
     "Business Name": "Chickadee Photo Booth",
-    "Vendor Type": "Photo Booth",
+    "Vendor Type": "Photographer",
     "Location": "Western NC",
     "Pronouns": "She/Her",
     "Website URL": "https://chickadeephotobooth.com",
