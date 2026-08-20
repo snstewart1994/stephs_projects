@@ -1,0 +1,32 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA stu_bio
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 7 rows from DATALINES.
+NOTE: Wrote stu_bio (7 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table grads created.
+NOTE: PROC SQL statement used.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
+NOTE: DATA trns_crse_dtl
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 7 rows from DATALINES.
+NOTE: Wrote trns_crse_dtl (7 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table course_detail created.
+NOTE: PROC SQL statement used.
+NOTE: PROC PRINT data=course_detail
+
+NOTE: PROC PRINT completed: 7 observations printed, 3 variables

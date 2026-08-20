@@ -1,0 +1,45 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA summer_combine
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 7 rows from DATALINES.
+NOTE: Wrote summer_combine (7 rows, 23 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA summer_combine
+
+
+NOTE: Read 7 rows from summer_combine.
+NOTE: Wrote summer_combine (7 rows, 24 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
+NOTE: DATA _null_
+
+NOTE: Writing to fileref ./output/297200_20260820.CLR (/tmp/work/r_bc7065af52ff4d3c9474deef61c08b2c/output/297200_20260820.CLR)
+NOTE: DATA _null_ completed. Output written to fileref ./output/297200_20260820.CLR (/tmp/work/r_bc7065af52ff4d3c9474deef61c08b2c/output/297200_20260820.CLR)
+NOTE: DATA _null_
+
+NOTE: Reading from fileref ./output/297200_20260820.CLR (output/297200_20260820.CLR)
+A300297200Summer 2026    N20260820F
+D1100000001Ana                 .Diaz                .                                 F20260820.                             .                             Raleigh             NC27607    US             19990101199901012026051620260731 N                                                                                                                                                                                        E0001                                             ana.diaz@ncsu.edu
+D1100000002Bao                 .Nguyen              .                                 Q20260820.                             .                             Raleigh             NC27607    US             19990101199901012026051620260731 N                                                                                                                                                                                        E0002                                             bao.nguyen@ncsu.edu
+D1100000003Carl                .Owens               .                                 H20260820.                             .                             Raleigh             NC27607    US             19990101199901012026051620260731 N                                                                                                                                                                                        E0003                                             carl.owens@ncsu.edu
+D1100000004Dina                .Patel               .                                 L20260820.                             .                             Raleigh             NC27607    US             19990101199901012026051620260731 N                                                                                                                                                                                        E0004                                             dina.patel@ncsu.edu
+D1100000005Eli                 .Ramos               .                                 F20260820.                             .                             Raleigh             NC27607    US             19990101199901012026051620260731 N                                                                                                                                                                                        E0005                                             eli.ramos@ncsu.edu
+D1100000006Fay                 .Singh               .                                 H20260820.                             .                             Raleigh             NC27607    US             19990101199901012026051620260731 N                                                                                                                                                                                        E0006                                             fay.singh@ncsu.edu
+D1100000007Gus                 .Torres              .                                 W20260820.                             .                             Raleigh             NC27607    US             19990101199901012026051620260731 N                                                                                                                                                                                        E0007                                             gus.torres@ncsu.edu
+T100000200000100000200000100000100000000000000000000000000000009
+
+NOTE: Read 9 rows from ./output/297200_20260820.CLR.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds

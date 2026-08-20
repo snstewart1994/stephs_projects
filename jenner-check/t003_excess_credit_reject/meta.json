@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_excess_credit_reject",
+  "source_file": "Excess Credit Evaluation.sas",
+  "source_blob_sha": "bac42660d0c23630b5cb3ce93529a3c9019ab4ea",
+  "source_commit": "ff4fca3877f78fe03249ea87eb87ab706f97525d",
+  "notes": "The original is one large PROC SQL over a dozen Oracle PeopleSoft views with no local data. Extracted two self-contained CASE WHEN lookup mappings embedded in it unmodified: the IPEDS ethnicity code map (lines 43-51) and the transfer-credit reject-reason code map (lines 157-181), each run as its own PROC SQL CREATE TABLE (matching the syntactic context the original uses) against small mock inputs shaped like prd.ps_nc_dnrm_stu_bio and prd.ps_trns_crse_dtl."
+}

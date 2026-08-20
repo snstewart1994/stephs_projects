@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T11:45:00Z",
+  "_captured_run_id": "r_000763df3c03453facee5efe36845334",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote tiers (15 rows, 9 columns).",
+    "NOTE: PICTURE mypct defined (1 ranges)",
+    "NOTE: Option TITLE changed to Freshmen.",
+    "NOTE: Option TITLE changed to Ext_Trans."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

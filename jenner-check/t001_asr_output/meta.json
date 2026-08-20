@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_asr_output",
+  "source_file": "00 ASR.sas",
+  "source_blob_sha": "d2c313aa1ea1f045a7a1f5ba194c6dd8db325035",
+  "source_commit": "ff4fca3877f78fe03249ea87eb87ab706f97525d",
+  "notes": "Extracted the %output macro (PROC TABULATE admissions breakdown, lines 40-59 of the original) unmodified and wrote a caller against mock applicant-snapshot data shaped like the together/tiers dataset the original builds from Oracle PRD + ACTSAT libnames. The Oracle connection, %include of 01 Snapshot Create.sas, and the PDF/email mailer are site-specific and not included."
+}

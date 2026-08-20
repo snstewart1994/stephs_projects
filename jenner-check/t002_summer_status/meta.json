@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_summer_status",
+  "source_file": "Combine Summer Clearinghouse.sas",
+  "source_blob_sha": "525640fd3c234d3975475dacc653e323a2ebd904",
+  "source_commit": "ff4fca3877f78fe03249ea87eb87ab706f97525d",
+  "notes": "Extracted the ACAD_SUMMER_STANDING threshold logic (lines 111-123), the validation PROC FREQs (lines 273-281), and the fixed-column NSLC clearinghouse file writer (lines 333-457) unmodified in intent, against a mock summer_combine dataset shaped like the table the original assembles from Oracle PRD joins. One mechanical edit: the trailer PUT's colon format modifier (`var : z6.`) was rewritten to the non-colon form (`var z6.`) because it hit a Jenner parser gap (colon format modifier unsupported in PUT statement) filed separately as a regression test in set/."
+}
