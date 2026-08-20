@@ -1,0 +1,22 @@
+                                                   The FREQ Procedure
+
+                                              Cumulative    Cumulative
+Ethnicity           Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+African American            1     14.29            1        14.29
+Asian                       1     14.29            2        28.57
+Hispanic                    1     14.29            3        42.86
+International               1     14.29            4        57.14
+Two or More                 1     14.29            5        71.43
+Unknown                     1     14.29            6        85.71
+White                       1     14.29            7       100.00
+
+emplid  reject_reason         reject_reason_desc
+E0001   05             Grade Points out of range
+E0002   06             Units out of range
+E0003   13             No equivalency
+E0004   17             Technical or Remedial
+E0005   24             Course too old
+E0006   61             Zero score and percent
+E0007   99             Unmapped
+

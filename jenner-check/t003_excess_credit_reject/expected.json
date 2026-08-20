@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-08-20T12:00:00Z",
+  "_captured_run_id": "r_223d9a588acd4aec906915db35b9bf4a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table grads created.",
+    "NOTE: Table course_detail created.",
+    "NOTE: PROC PRINT completed: 7 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
